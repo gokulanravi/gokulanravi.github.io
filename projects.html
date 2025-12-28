@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+<html>
+<head>
+	<title>Gokulan Ravi</title>
+</head>
+<body>
+	<ul class="nav justify-content-center">
+		<li class="nav-item">
+			<a class="nav-link" href="./">Home</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="./projects">Projects</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="./experience">Experience</a>
+		</li>
+		<!--<li>
+			<a class="nav-link" href="./news">News</a>
+		</li>-->
+		<li>
+			<a class="nav-link" href="./res/resume.pdf">resume</a>
+		</li>
+	</ul>
+
+	<div class="container" id="main-page">
+		<h1 class="row">Projects</h1>
+		<div class="row">
+			<div id="projects">
+        <div class="project">
+					<h3>SHAKTIMAAN : An open-source DNN accelerator</h3>
+					<p>Advisor: Prof. Pratyush Kumar</p>
+					<p>Jun 2019 - May 2020</p>
+					<p>
+						<ul>
+							<li>Architected a systolic-array based DNN accelerator</li>
+							<li>co-processor to SHAKTI processor</li>
+						</ul>
+					</p>
+				</div>
+				<div class="project">
+					<h3>Cache coherence protocol for Shakti C-Class processor</h3>
+					<p>Advisor: Prof. Kamakoti</p>
+					<p>Summer 2018, Spring 2019</p>
+					<p>Implemented cache-coherence protocol for multi-core SHAKTI processor
+						<ul>
+							<li>MOESI protocol</li>
+							<li>Both snoop-based (Summer 2018) and directory-based (Spring 2019)</li>
+						</ul>
+					</p>
+				</div>
+				<div class="project">
+					<h3>Efficient convolution on GPUs by exploiting Quantization</h3>
+					<p>Advisor: Prof. Pratyush Kumar</p>
+					<p>Fall 2018</p>
+					<p>Implemented CUDA kernels to efficiently perform convolution in GPUs by Quantization. In quantized convolutional filter maps, weight values are redundant and can be shared, thereby reducing memory used. Overall, it was found that weight sharing did not provide any speedup over baseline model, owing to increase in book-keeping instructions needed for execution of convolution.
+					</p>
+				</div>	
+			</table>
+		</div>
+	</div>
+
+	<link rel="stylesheet" type="text/css" href="./main.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200;300;500&display=swap" rel="stylesheet">
+</body>
+</html>

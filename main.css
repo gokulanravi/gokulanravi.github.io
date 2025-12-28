@@ -1,0 +1,49 @@
+.nav{
+	padding: 5px;
+	box-shadow: 1px;
+}
+
+#main-page{
+	margin-top: 40px;
+}
+
+
+div, li{
+	font-family: 'Spectral SC';
+}
+
+#main-photo{
+	width: 90%;
+	/*border-radius: 50% 50%;*/
+}
+/*@media screen and (min-width: 769px){
+	#main-photo{
+		width: 100%;
+		border-radius: 50%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	#main-photo{
+		width: 60%;
+	}
+}*/
+
+#blog-content {
+	font-family: 'Spectral', serif;;
+}
+
+#experience, #experience th, #experience td, #experience tr{
+	border: 1px solid black;
+}
+
+#experience th, #experience td{
+	padding: 2px;
+}
+
+.project, .work{
+	margin: 20px 0px;
+	padding: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 100%;
+}
